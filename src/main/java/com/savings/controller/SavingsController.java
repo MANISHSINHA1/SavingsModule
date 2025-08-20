@@ -21,7 +21,7 @@ public class SavingsController {
 
     @PostMapping("/saveAccounts")
     public void addCustomers(@RequestBody List<Customers> customer) {
-        log.info("Adding customer list " + customer);
+        log.info("Adding customer list :" + customer);
         cr.saveAll(customer);
 
     }
