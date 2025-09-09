@@ -36,5 +36,110 @@ curl --location 'http://localhost:8082/saveAccounts' \
     "email" : "asinha@gmail.com",
     "savingsAccountNumber" : "9878909989004",
     "balance" : 10000004
+    },
+    {
+    "firstName" : "Mani",
+    "lastName" : "Sinha",
+    "email" : "mani@gmail.com",
+    "savingsAccountNumber" : "9878909989000",
+    "balance" : 11000000
+    },
+     {
+    "firstName" : "Ani",
+    "lastName" : "Mehrotra",
+    "email" : "ani@gmail.com",
+    "savingsAccountNumber" : "9878909989001",
+    "balance" : 12000001
+    },
+     {
+    "firstName" : "Vasu",
+    "lastName" : "Konde",
+    "email" : "v@gmail.com",
+    "savingsAccountNumber" : "9878909989002",
+    "balance" : 13000002
+    },
+     {
+    "firstName" : "A",
+    "lastName" : "Kondepati",
+    "email" : "a@gmail.com",
+    "savingsAccountNumber" : "9878909989003",
+    "balance" : 14000003
+    },
+    {
+    "firstName" : "Animesh",
+    "lastName" : "Sinha",
+    "email" : "animeshsinha@gmail.com",
+    "savingsAccountNumber" : "9878909989004",
+    "balance" : 16000004
+    },
+    {
+    "firstName" : "Manish",
+    "lastName" : "Sinha",
+    "email" : "manish@gmail.com",
+    "savingsAccountNumber" : "9878909989000",
+    "balance" : 10000000
+    },
+     {
+    "firstName" : "Anil",
+    "lastName" : "Mehrotra",
+    "email" : "anil@gmail.com",
+    "savingsAccountNumber" : "9878909989001",
+    "balance" : 10000001
+    },
+     {
+    "firstName" : "Vasu",
+    "lastName" : "Kondepati",
+    "email" : "vasu@gmail.com",
+    "savingsAccountNumber" : "9878909989002",
+    "balance" : 10000002
+    },
+     {
+    "firstName" : "Ajay",
+    "lastName" : "Kondepati",
+    "email" : "ajay@gmail.com",
+    "savingsAccountNumber" : "9878909989003",
+    "balance" : 10000003
+    },
+    {
+    "firstName" : "A",
+    "lastName" : "Sinha",
+    "email" : "asinha@gmail.com",
+    "savingsAccountNumber" : "9878909989004",
+    "balance" : 10000004
+    },
+    {
+    "firstName" : "Mani",
+    "lastName" : "Sinha",
+    "email" : "mani@gmail.com",
+    "savingsAccountNumber" : "9878909989000",
+    "balance" : 11000000
+    },
+     {
+    "firstName" : "Ani",
+    "lastName" : "Mehrotra",
+    "email" : "ani@gmail.com",
+    "savingsAccountNumber" : "9878909989001",
+    "balance" : 12000001
+    },
+     {
+    "firstName" : "Vasu",
+    "lastName" : "Konde",
+    "email" : "v@gmail.com",
+    "savingsAccountNumber" : "9878909989002",
+    "balance" : 13000002
+    },
+     {
+    "firstName" : "A",
+    "lastName" : "Kondepati",
+    "email" : "a@gmail.com",
+    "savingsAccountNumber" : "9878909989003",
+    "balance" : 14000003
+    },
+    {
+    "firstName" : "Rohit",
+    "lastName" : "Roy",
+    "email" : "rohitroy@gmail.com",
+    "savingsAccountNumber" : "9878909989004",
+    "balance" : 16100004
     }
 ]'
