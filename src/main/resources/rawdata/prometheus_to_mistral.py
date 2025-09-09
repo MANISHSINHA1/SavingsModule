@@ -12,7 +12,7 @@ def query_prometheus(query):
     params = {'query': query}
     response = requests.get(url, params=params)
     data = response.json()
-    ##print(f"Manish: {data}")
+    
     if data['status'] == 'success':
         return data['data']['result']
     else:
@@ -33,11 +33,10 @@ def send_to_mistral(prompt_text):
         ],
         "temperature": 0.01
     }
-    print(f"Manish6: {payload}")
+    
     response = requests.post(LM_STUDIO_URL, headers=headers, data=json.dumps(payload))
     result = response.json()
-    print(f"Manish7: {result}")
-    #return result['choices'][0]['message']['content']
+    
     return result
 
 def main():
@@ -50,7 +49,7 @@ def main():
         # Format the data into a prompt for Mistral
         formatted = json.dumps(prom_data, indent=2)
        
-        prompt = f"""What is Giga Byte of memory I should have in my server to run this application without facing Out of Memory issue, answer in 1 sentence:\n\n{formatted}"""
+        prompt = f"""What is Giga Byte of memory I should have in my server to run this application without facing Out of Memory issue:\n\n{formatted}"""
    
         # Send to Mistral model
         answer = send_to_mistral(prompt)
